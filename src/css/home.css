@@ -1,0 +1,47 @@
+.cont{
+    min-width: 1024px;
+    max-width: 1040px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.con_title a{
+    margin-left:15px;
+}
+.con_titleright{
+    float:right;
+}
+.con_titleright div{
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius:50%;
+    margin-right: 5px;
+    background-color:rgb(51, 119, 170);
+    text-align: center;
+    line-height: 18px;
+    color:#fff;
+}
+.con_titleright span{
+    margin:20px;
+}
+.cont_left{
+    width: 675px;
+}
+.con_theaters ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    overflow: hidden;
+    height: 250px;
+}
+.con_theaters li{
+    float: left;
+    text-align:center;
+    width: 115px !important;
+}
+.con_theaters li div{
+    border:none;
+}
+.ant-card-meta-title{
+    font-size:14px !important
+}
